@@ -1,0 +1,37 @@
+.div-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: var(--stuff-background-color);
+}
+
+.list-advant {
+  display: flex;
+}
+
+.list-advant .advantage-list {
+  width: 270px;
+  margin-right: 30px;
+}
+
+.advantage-list:nth-child(4n) {
+  margin-right: 0px;
+}
+
+.adv-item {
+  margin-bottom: 10px;
+  @include font(700, 14px, 16px);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+
+.adv-describe {
+  margin: 0px;
+  line-height: 1.7;
+  color: var(--primary-text-color);
+}

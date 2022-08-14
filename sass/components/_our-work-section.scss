@@ -1,0 +1,42 @@
+.our-work {
+  padding-top: 0px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.list-work {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.our-work-title {
+  margin-bottom: 50px;
+  text-align: center;
+  @include font(700, 36px, 42px);
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.work-div {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include font(700, 14px, 16px);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  color: var(--accent-second-color);
+}
